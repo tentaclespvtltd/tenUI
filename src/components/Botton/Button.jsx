@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Button = ({ variant = "primary", children, ...props }) => {
+export default function Button({ variant = "primary", children, ...props }) {
   const base = {
     padding: "8px 16px",
     borderRadius: "6px",
@@ -15,7 +15,7 @@ export const Button = ({ variant = "primary", children, ...props }) => {
       border: "none",
     },
     secondary: {
-      background: "#e5e7eb",
+      background: "#34ff4fda",
       color: "#111",
       border: "1px solid #ccc",
     },
