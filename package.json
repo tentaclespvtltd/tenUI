@@ -1,12 +1,11 @@
 {
-  "name": "tenui",
+  "name": "@tentaclespvtltd/tenui",                   
   "version": "1.0.0",
   "description": "A simple React UI component library",
-  "main": "dist/tenui.cjs.js",
-  "module": "dist/tenui.es.js",
-  "types": "dist/index.d.ts",
-  "files": ["dist"],
-  "scripts": {
+  "main": "dist/tenui.cjs.js",      
+  "module": "dist/tenui.es.js",    
+  "files": ["dist"],               
+    "scripts": {
     "build": "vite build"
   },
   "repository": {
@@ -14,8 +13,11 @@
     "url": "git+https://github.com/tentaclespvtltd/tenUI.git"
   },
   "keywords": ["react", "ui", "components", "library"],
-  "author": "",
+  "author": "Your Name",
   "license": "MIT",
+   "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/tentaclespvtltd/tenUI/issues"
   },
